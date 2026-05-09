@@ -82,7 +82,7 @@ Down days: 45.5%
 
 This makes the classification problem reasonably balanced, but still difficult because daily stock-market returns are noisy.
 
-Stage 2 — HMM Regime Detection
+## Stage 2 — HMM Regime Detection
 
 A Gaussian Hidden Markov Model was used to classify each trading day into one of three regimes:
 
@@ -107,7 +107,7 @@ Why HMM?
 
 Market regimes are not directly observable. Investors can observe returns, volatility, VIX, interest rates, and macroeconomic variables, but the true market state is hidden. A Hidden Markov Model helps infer these hidden states from observable data.
 
-Stage 3 — XGBoost Return Direction Classifier
+## Stage 3 — XGBoost Return Direction Classifier
 
 An XGBoost classifier was trained to predict whether the next trading day return would be positive or negative.
 
@@ -129,7 +129,7 @@ Precision for Up Class	0.59
 
 The model showed modest predictive power, which is realistic for next-day market direction forecasting.
 
-Stage 4 — GARCH Volatility Forecasting and Position Sizing
+## Stage 4 — GARCH Volatility Forecasting and Position Sizing
 
 A GARCH(1,1) model with Student-t errors was used to forecast next-day volatility.
 
@@ -155,7 +155,8 @@ Mean Forecasted Daily Volatility	1.04%
 Median Forecasted Daily Volatility	0.84%
 Minimum Forecasted Daily Volatility	0.46%
 Maximum Forecasted Daily Volatility	4.64%
-Stage 5 — Backtesting and Performance Evaluation
+
+## Stage 5 — Backtesting and Performance Evaluation
 
 A vectorized backtest was used to evaluate the strategy on the 2025 out-of-sample period.
 
@@ -238,7 +239,8 @@ Regime distribution charts
 GARCH volatility gauge
 Signal explorer
 Project Structure
-DS Quant Fin/
+
+## DS Quant Fin/
 │
 ├── feature_engineering_dataset.ipynb
 ├── Regime_Detection_HMM.ipynb
@@ -263,7 +265,7 @@ DS Quant Fin/
 │
 ├── streamlit_app.py
 └── README.md
-How to Run the Project
+## How to Run the Project
 1. Clone the Repository
 git clone <your-repo-link>
 cd <your-repo-folder>
