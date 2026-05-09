@@ -1,0 +1,50 @@
+{
+  "original": {
+    "Strategy": "Original_XGB_GARCH",
+    "Gross Return": 0.08828955825437634,
+    "Net Return": 0.018909639633998054,
+    "Gross Sharpe": 1.0201071095945204,
+    "Net Sharpe": 0.25952649910685216,
+    "Sortino Ratio": 0.25660752353616273,
+    "Calmar Ratio": 0.18808886246640197,
+    "Gross Max Drawdown": -0.09574540233433124,
+    "Net Max Drawdown": -0.10217269508868394,
+    "Win Rate": 0.5932203389830508,
+    "Days Traded": 118,
+    "Days Flat": 130,
+    "Total Turnover": 65.86208919299752,
+    "Total Cost": 0.06586208919299752
+  },
+  "best": {
+    "Strategy": "Best_XGB_GARCH",
+    "Gross Return": 0.08655225158706226,
+    "Net Return": 0.024036230369583578,
+    "Gross Sharpe": 1.0362335770498081,
+    "Net Sharpe": 0.32593964431592587,
+    "Sortino Ratio": 0.309379594695453,
+    "Calmar Ratio": 0.2506813468825278,
+    "Gross Max Drawdown": -0.08905262202359307,
+    "Net Max Drawdown": -0.09744884999114281,
+    "Win Rate": 0.5833333333333334,
+    "Days Traded": 108,
+    "Days Flat": 140,
+    "Total Turnover": 59.24654644826712,
+    "Total Cost": 0.05924654644826712
+  },
+  "buyhold": {
+    "Strategy": "Buy_Hold",
+    "Gross Return": 0.1751182939380822,
+    "Net Return": 0.1751182939380822,
+    "Gross Sharpe": 0.9650299417140745,
+    "Net Sharpe": 0.9650299417140745,
+    "Sortino Ratio": 1.2101921773971513,
+    "Calmar Ratio": 0.9426454411915848,
+    "Gross Max Drawdown": -0.18902206184283893,
+    "Net Max Drawdown": -0.18902206184283893,
+    "Win Rate": 0.5806451612903226,
+    "Days Traded": 248,
+    "Days Flat": 0,
+    "Total Turnover": 1.0,
+    "Total Cost": 0.0
+  }
+}
