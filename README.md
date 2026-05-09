@@ -778,4 +778,4 @@ The final model did not outperform buy-and-hold in total return, but it reduced 
 Kiran Thapa Chhetri  
 Managerial Economics and Data Science  
 Virginia Tech  
-Expected Graduation: May 2026
+
