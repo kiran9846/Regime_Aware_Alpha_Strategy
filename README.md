@@ -174,18 +174,31 @@ A 0.1% transaction cost was used to represent realistic trading friction.
 
 Final Backtest Results
 Metric	Original XGB+GARCH	Best XGB+GARCH	Buy & Hold
+
 Gross Return	8.83%	8.66%	17.51%
+
 Net Return	1.89%	2.40%	17.51%
+
 Gross Sharpe	1.020	1.036	0.965
+
 Net Sharpe	0.260	0.326	0.965
+
 Sortino Ratio	0.257	0.309	1.210
+
 Calmar Ratio	0.188	0.251	0.943
+
 Gross Max Drawdown	-9.57%	-8.91%	-18.90%
+
 Net Max Drawdown	-10.22%	-9.74%	-18.90%
+
 Win Rate	59.32%	58.33%	58.06%
+
 Days Traded	118	108	248
+
 Days Flat	130	140	0
+
 Total Turnover	65.86	59.25	1.00
+
 Key Findings
 
 The best XGBoost + GARCH strategy improved over the original strategy after transaction costs.
