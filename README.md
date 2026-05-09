@@ -30,7 +30,6 @@ This project addresses that question by combining supervised prediction, unsuper
 
 ## Project Pipeline
 
-```text
 Stage 1 — Data Collection and Feature Engineering
 Stage 2 — HMM Regime Detection
 Stage 3 — XGBoost Return Direction Classification
@@ -38,7 +37,7 @@ Stage 4 — GARCH Volatility Forecasting and Position Sizing
 Stage 5 — Backtesting and Performance Evaluation
 Stage 6 — Streamlit Dashboard
 
-Stage 1 — Data Collection and Feature Engineering
+## Stage 1 — Data Collection and Feature Engineering
 
 Market data was collected using yfinance, and macroeconomic data was collected from FRED.
 
